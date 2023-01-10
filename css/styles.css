@@ -11,3 +11,30 @@
   --color-subheadings: #797979;
   --section-background: #f6f6f6;
 }
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+h1 {
+  color: var(--color-primary);
+  font-size: 5rem;
+  margin: 0;
+}
+
+/* Hero */
+.hero {
+  background: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
