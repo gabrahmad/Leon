@@ -176,10 +176,28 @@ p {
     text-align: start;
     flex-direction: row;
   }
-  .media__body > p {
-    font-size: 2rem;
-  }
+
   .media__image {
     align-self: flex-start;
+  }
+}
+/* Services Container */
+.services__image {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .services-container {
+    padding: 2rem 200px 2rem 1.5rem;
+    display: flex;
+    position: relative;
+    border-right: var(--color-secondary) solid 100px;
+  }
+
+  .services__image {
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 0;
+    transform: scale(75%);
   }
 }
